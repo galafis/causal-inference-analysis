@@ -20,6 +20,22 @@
 
 ## English
 
+## 📊 Architecture Diagram
+
+```mermaid
+graph TB
+    A[Observational Data] --> B[Causal Graph]
+    B --> C[Propensity Scores]
+    C --> D[Matching]
+    D --> E[Treatment Effect]
+    E --> F[Impact Evaluation]
+    
+    style A fill:#e1f5ff
+    style F fill:#c8e6c9
+    style B fill:#fff9c4
+```
+
+
 ## 🎯 Features
 
 - Propensity Score Matching
